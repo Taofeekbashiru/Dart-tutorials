@@ -14,13 +14,16 @@ void main(List<String> args) {
   // print(shoppingList);
   const addBlue = false;
   const addRed = true;
+  const addPink = true;
   const extraColors = ['Yellow', 'Black', 'White'];
   final colors = [
     'Brown',
     'Grey',
     if (addBlue) 'Blue',
     if (addRed) 'Red',
+    if (addPink) 'Pink',
     ...extraColors,
+    // ...addPink,
   ];
   // colors.addAll(extraColors);
   print(colors);

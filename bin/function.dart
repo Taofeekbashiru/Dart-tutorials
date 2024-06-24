@@ -1,10 +1,8 @@
 void main(List<String> args) {
-  printMyFullname();
+  final person = describe(name: 'Andrea', age: 27);
+  print(person);
 }
 
-void printMyFullname() {
-  print("My name is Bashiru Taofeek");
-  print("I'm 26 years old");
-  print("I'm from Osun state, Nigeria");
-  print("I'm 1.76m tall");
+String describe({required String name, required int age}) {
+  return ('My name is $name. I\'m $age years old.');
 }
