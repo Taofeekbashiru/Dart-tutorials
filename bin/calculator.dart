@@ -1,7 +1,7 @@
 void main() {
   const a = 6;
   const b = 2;
-  const op = Operation.multiply;
+  const op = Operation.divide;
   switch (op) {
     case Operation.plus:
       print('$a + $b = ${a + b}');

@@ -10,9 +10,9 @@ void main() {
   // final sayHi = (String name) => 'Hi $name';
   // print(sayHi('Andrea'));
   final sayHi = (String name) => "Hi $name";
-  welcome(spanish, 'Taofeek');
-  var add = adder();
-  print(add(2, 3));
+  welcome(french, "Taofeek");
+  // var add = adder();
+  // print(add(2, 3));
 }
 
 void welcome(Greet greet, String name) {

@@ -11,6 +11,8 @@ void main() {
   }
   print(common.toList());
   print(Set.from(a).intersection(Set.from(b)).toList());
+  print(Set.from(a).union(Set.from(b)));
+  print(Set.from(a).difference(Set.from(b)).toList());
 }
 
 // void calc() {
