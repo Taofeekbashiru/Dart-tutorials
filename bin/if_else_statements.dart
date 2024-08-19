@@ -7,6 +7,6 @@ void main(List<String> args) {
   } else if (netexpenses > netSalary) {
     print("You have lost ${netexpenses - netSalary} this month");
   } else {
-    print("Your balance hasnt changed");
+    print("Your balance hasn't changed");
   }
 }

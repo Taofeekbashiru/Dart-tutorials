@@ -2,6 +2,7 @@ typedef Greet = String Function(String);
 String sayHi(String name) => "Hi $name";
 String french(String name) => "Bonjour $name";
 String spanish(String name) => "Hola $name";
+String china(String name) => "Niao $name";
 Function adder() {
   return (var x, var y) => x + y;
 }
@@ -10,7 +11,7 @@ void main() {
   // final sayHi = (String name) => 'Hi $name';
   // print(sayHi('Andrea'));
   final sayHi = (String name) => "Hi $name";
-  welcome(french, "Taofeek");
+  welcome(china, "Taofeek");
   // var add = adder();
   // print(add(2, 3));
 }

@@ -53,7 +53,7 @@ void main() {
     },
     {
       'type': 'Circle',
-      'Radius': 7.0,
+      'radius': 7.0,
     },
   ];
   final shapes = shapesJson.map((shapeJson) => Shape.fromJson(shapeJson));
